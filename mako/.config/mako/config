@@ -1,0 +1,11 @@
+font=Iosevka Nerd Font 12
+default-timeout=5000
+border-size=1
+
+background-color=#191724f2
+text-color=#e0def4
+border-color=#31748f
+progress-color=over #f6c177
+
+[urgency=high]
+border-color=#eb6f92

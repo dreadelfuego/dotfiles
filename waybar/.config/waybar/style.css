@@ -1,0 +1,57 @@
+@define-color base            #191724;
+@define-color text            #e0def4;
+
+* {
+    font-family: Iosevka Nerd Font;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+}
+
+window#waybar {
+    background: @base;
+    color: @text;
+    opacity: 0.95;
+}
+
+#idle_inhibitor,
+#battery,
+#network {
+    padding: 0 8px;
+}
+
+#custom-logo,
+#idle_inhibitor,
+#pulseaudio,
+#clock {
+    margin: 0 16px;
+}
+
+button {
+    color: @text;
+    opacity: 0.7;
+}
+
+button:hover {
+    background: inherit;
+    opacity: 1;
+}
+
+#workspaces button.active {
+    opacity: 1;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+tooltip {
+    background: @base;
+    border: 2px solid @text;
+}
+
+tray {
+    background: @base;
+    border: 2px solid @text;
+}
