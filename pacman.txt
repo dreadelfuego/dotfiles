@@ -76,6 +76,7 @@ ripgrep
 rsync
 rustup
 slurp
+speedtest-cli
 stow
 tcpdump
 tmux
@@ -94,6 +95,7 @@ whois
 wireplumber
 wl-clipboard
 wofi
+wtype
 xdg-desktop-portal-hyprland
 xorg-server
 xorg-xinit
