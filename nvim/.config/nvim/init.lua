@@ -279,11 +279,23 @@ require('lazy').setup {
                     { name = 'luasnip' },
                     { name = 'path' },
                 },
+                formatting = {
+                    format = require('nvim-highlight-colors').format,
+                },
             }
         end,
     },
     {
         'windwp/nvim-ts-autotag',
         opts = {},
+    },
+    {
+        'brenoprata10/nvim-highlight-colors',
+        opts = {
+            render = 'virtual',
+            virtual_symbol_suffix = '',
+            virtual_symbol_position = 'eol',
+            enable_tailwind = true,
+        },
     },
 }
