@@ -4,7 +4,7 @@
 
 check_deps "wofi firefox"
 
-selected="$(grep -v "^#\|^$" "$HOME/.dotfiles/bookmarks.txt" | wofi -i -p "Bookmark" --dmenu --matching fuzzy)"
+selected="$(grep -v "^#\|^$" "$HOME/documents/data/bookmarks.txt" | wofi -i -p "Bookmarks" --dmenu --matching fuzzy)"
 [ -z "$selected" ] && exit 0
 
 if pgrep firefox; then
