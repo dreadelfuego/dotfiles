@@ -210,7 +210,7 @@ require('lazy').setup({
 				'shellcheck',
 				'tailwindcss',
 				'templ',
-				'tsserver',
+				'ts_ls',
 			})
 
 			require('mason-tool-installer').setup({
